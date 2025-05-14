@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B9B88A152DD4C90400648208 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B9B88A142DD4C90400648208 /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B9B88A022DD4C89F00648208 /* TCATODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCATODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B88A152DD4C90400648208 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = TCATODO;
 			packageProductDependencies = (
+				B9B88A142DD4C90400648208 /* ComposableArchitecture */,
 			);
 			productName = TCATODO;
 			productReference = B9B88A022DD4C89F00648208 /* TCATODO.app */;
@@ -94,6 +100,10 @@
 			);
 			mainGroup = B9B889F92DD4C89F00648208;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B9B88A132DD4C90400648208 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				B9B88A162DD4C91C00648208 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B9B88A032DD4C89F00648208 /* Products */;
 			projectDirPath = "";
@@ -324,6 +334,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9B88A132DD4C90400648208 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.19.1;
+			};
+		};
+		B9B88A162DD4C91C00648208 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9B88A142DD4C90400648208 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9B88A132DD4C90400648208 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9B889FA2DD4C89F00648208 /* Project object */;
 }
