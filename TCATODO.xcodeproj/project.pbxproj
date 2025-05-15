@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B9B88A152DD4C90400648208 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B9B88A142DD4C90400648208 /* ComposableArchitecture */; };
+		B9B88A282DD5C63C00648208 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B9B88A272DD5C63B00648208 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B9B88A022DD4C89F00648208 /* TCATODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCATODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B88A272DD5C63B00648208 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		B9B889F92DD4C89F00648208 = {
 			isa = PBXGroup;
 			children = (
+				B9B88A272DD5C63B00648208 /* README.md */,
 				B9B88A042DD4C89F00648208 /* TCATODO */,
 				B9B88A032DD4C89F00648208 /* Products */,
 			);
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B88A282DD5C63C00648208 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
